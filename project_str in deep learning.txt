@@ -1,0 +1,19 @@
+notebook
+	(contains all experimental files then is transferrd to src in py file)
+	exp.ipynb
+	metric.ipynb
+
+src
+	project
+		metrics.py(accu)
+		utils.py
+		
+		models	
+			resnet.py
+			vgg.py
+		
+		main
+			train.py(can directly get all models)
+
+		data
+			dataset.py
